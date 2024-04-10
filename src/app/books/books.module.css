@@ -1,0 +1,29 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 150px;
+    height: 120px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    justify-content: center;
+    padding: 5px;
+}

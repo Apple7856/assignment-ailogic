@@ -1,0 +1,37 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainBox {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.button {
+    padding: 2px 5px;
+    border: 1px solid gray;
+    background-color: aqua;
+    border-radius: 2px;
+}
